@@ -1,0 +1,10 @@
+module.exports={
+    PORT:process.env.PORT,
+    DB:{
+        user:"",
+        password:"",
+        database:"",
+        "host":"localhost",
+        dialect:"postgres"
+    },
+}
